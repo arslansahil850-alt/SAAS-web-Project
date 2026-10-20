@@ -1,0 +1,506 @@
+@media (max-width: 1100px) {
+    .nav-links {
+        gap: 18px;
+    }
+
+    .nav-actions .btn {
+        padding: 10px 15px;
+    }
+
+    .hero-inner {
+        gap: 30px;
+    }
+
+    .dashboard-showcase {
+        gap: 30px;
+    }
+
+    .app-shell {
+        grid-template-columns: 175px minmax(0, 1fr);
+    }
+
+    .app-main {
+        padding: 18px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1.3fr 1fr 1fr;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 900px) {
+    .section {
+        padding: 75px 0;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+    }
+
+    .navbar {
+        min-height: 72px;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: calc(100% + 1px);
+        left: 0;
+        right: 0;
+        display: none;
+        align-items: stretch;
+        gap: 0;
+        padding: 12px 24px 22px;
+        background: #fff;
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 15px 25px rgba(33, 35, 70, 0.07);
+    }
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links a {
+        padding: 13px 5px;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+
+    .nav-actions {
+        margin-left: auto;
+    }
+
+    .hero {
+        padding: 70px 0 55px;
+    }
+
+    .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-content {
+        max-width: 720px;
+        text-align: center;
+        margin-inline: auto;
+    }
+
+    .hero-content>p {
+        margin-inline: auto;
+    }
+
+    .hero-buttons,
+    .hero-note {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        width: min(650px, 100%);
+        margin-inline: auto;
+    }
+
+    .features-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .dashboard-showcase {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-copy {
+        max-width: 700px;
+    }
+
+    .app-shell {
+        grid-template-columns: 190px minmax(0, 1fr);
+    }
+
+    .pricing-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 30px;
+    }
+
+    .pricing-card:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .benefits-grid {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: min(100% - 32px, 1180px);
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-header {
+        margin-bottom: 32px;
+    }
+
+    .section-header h2 {
+        letter-spacing: -0.8px;
+    }
+
+    .topbar {
+        padding: 9px 12px;
+        font-size: 0.74rem;
+    }
+
+    .navbar {
+        min-height: 66px;
+        gap: 10px;
+    }
+
+    .logo {
+        gap: 7px;
+        font-size: 1.3rem;
+    }
+
+    .logo-mark {
+        width: 33px;
+        height: 33px;
+    }
+
+    .nav-actions {
+        gap: 8px;
+    }
+
+    .nav-actions .btn {
+        min-height: 40px;
+        padding: 9px 12px;
+        font-size: 0.82rem;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-links {
+        padding-inline: 16px;
+    }
+
+    .hero {
+        padding: 55px 0 40px;
+    }
+
+    h1 {
+        font-size: clamp(2.25rem, 10vw, 3.5rem);
+        letter-spacing: -1.7px;
+    }
+
+    h2 {
+        font-size: clamp(1.8rem, 7vw, 2.4rem);
+    }
+
+    .hero-content h1 {
+        margin-bottom: 18px;
+    }
+
+    .hero-content>p {
+        font-size: 0.98rem;
+        line-height: 1.75;
+    }
+
+    .hero-buttons {
+        align-items: stretch;
+    }
+
+    .hero-buttons .btn {
+        flex: 1 1 145px;
+    }
+
+    .hero-visual {
+        padding: 0;
+    }
+
+    .dashboard-preview {
+        padding: 14px;
+        border-radius: 15px;
+        transform: none;
+    }
+
+    .preview-content {
+        gap: 9px;
+        padding-top: 12px;
+    }
+
+    .preview-stat {
+        padding: 12px;
+    }
+
+    .preview-stat strong {
+        font-size: 1.15rem;
+    }
+
+    .preview-chart {
+        padding: 12px;
+    }
+
+    .trusted-section {
+        padding: 30px 0;
+    }
+
+    .trusted-logos {
+        justify-content: center;
+        gap: 18px 25px;
+    }
+
+    .trusted-logos span {
+        font-size: 0.9rem;
+    }
+
+    .features-grid,
+    .testimonials-grid,
+    .pricing-grid,
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card,
+    .testimonial-card,
+    .pricing-card {
+        padding: 23px;
+    }
+
+    .pricing-card:last-child {
+        grid-column: auto;
+    }
+
+    .app-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .app-sidebar {
+        padding: 13px;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .app-sidebar .logo {
+        padding: 0 5px 12px;
+    }
+
+    .sidebar-label,
+    .sidebar-bottom {
+        display: none;
+    }
+
+    .sidebar-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .sidebar-nav a,
+    .sidebar-link {
+        flex: 0 0 auto;
+        padding: 9px 10px;
+        font-size: 0.76rem;
+    }
+
+    .app-main {
+        padding: 15px;
+    }
+
+    .app-topbar {
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .app-topbar h2 {
+        font-size: 1.1rem;
+    }
+
+    .app-user img,
+    .user-avatar {
+        width: 32px;
+        height: 32px;
+    }
+
+    .dashboard-stats {
+        gap: 9px;
+    }
+
+    .stat-card {
+        padding: 12px;
+    }
+
+    .stat-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .dashboard-panel {
+        padding: 13px;
+    }
+
+    .analytics-chart {
+        height: 130px;
+        gap: 6px;
+    }
+
+    .chart-labels {
+        font-size: 0.6rem;
+    }
+
+    .activity-item {
+        gap: 9px;
+    }
+
+    .activity-time {
+        font-size: 0.65rem;
+    }
+
+    .benefit-item {
+        gap: 13px;
+    }
+
+    .benefit-icon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .cta-section {
+        padding: 45px 0;
+    }
+
+    .cta-box {
+        padding: 42px 20px;
+        border-radius: 18px;
+    }
+
+    .cta-box h2 {
+        letter-spacing: -0.8px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px 20px;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+
+    .site-footer {
+        padding-top: 45px;
+    }
+
+    .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .powered-by {
+        flex-wrap: wrap;
+    }
+
+    .toast,
+    .notification {
+        right: 16px;
+        bottom: 16px;
+        max-width: calc(100% - 32px);
+    }
+
+    .dashboard-content {
+        padding: 15px;
+    }
+
+    .settings-form {
+        grid-template-columns: 1fr;
+    }
+
+    .settings-form .full-width {
+        grid-column: auto;
+    }
+
+    .toolbar-actions {
+        width: 100%;
+    }
+
+    .search-box {
+        min-width: 0;
+        flex: 1;
+    }
+
+    .dashboard-toolbar h2 {
+        font-size: 1.35rem;
+    }
+
+    .notification-panel {
+        right: -55px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: calc(100% - 24px);
+    }
+
+    .logo {
+        font-size: 1.15rem;
+    }
+
+    .nav-actions .btn {
+        padding-inline: 9px;
+        font-size: 0.75rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .preview-stat strong {
+        font-size: 1rem;
+    }
+
+    .app-main {
+        padding: 10px;
+    }
+
+    .panel-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .panel-header select {
+        max-width: 100%;
+    }
+
+    .activity-time {
+        display: none;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-brand {
+        grid-column: auto;
+    }
+}
