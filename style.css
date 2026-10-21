@@ -1740,3 +1740,30 @@ ul {
     width: 40px;
     height: 40px;
 }
+
+.demo-notice {
+    width: 100%;
+    padding: 10px 15px;
+    background: #fff3cd;
+    color: #664d03;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ffecb5;
+}
+
+.demo-notice strong {
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .demo-notice {
+        flex-direction: column;
+        gap: 4px;
+        font-size: 12px;
+    }
+}

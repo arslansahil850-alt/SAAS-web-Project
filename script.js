@@ -570,4 +570,10 @@ document.addEventListener("DOMContentLoaded", () => {
   updateBadge();
 
   document.dispatchEvent(new CustomEvent("nexora:ready"));
+
+  document.getElementById("get-strt-btn").addEventListener("click", () => {
+    alert("Sorry Backend is required to contact...")
+  });
 });
+
+
